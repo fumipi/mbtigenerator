@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>16の性格診断アプリ</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>16の性格診断アプリ</h1>
+    <div id="quizArea">
+        <h2 id="question">どちらか当てはまる方を答えてください</h2>
+        <div>
+            <button data-answer="1">A</button>
+            <button data-answer="-1">B</button>
+        </div>
+    </div>
+
+    <div id="result">
+        <h2>結果</h2>
+        <p id="resultText"></p>
+        <button id="retryButton">もう一度診断する</button>
+    </div>
+    <script type="module" src="js/app.js"></script>
+</body>
+</html>

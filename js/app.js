@@ -21,6 +21,7 @@ function displayQuestion() {
             buttons[i].textContent = questions[currentQuestion].choices[i];
         }
     } else {
+        document.getElementById("question").style.display = "none";
         document.getElementById("quizArea").style.display = "none";
         document.getElementById("result").style.display = "block";
         resultCharacter = getCharacter(characterCount);
@@ -58,6 +59,7 @@ function resetQuiz() {
         "TF": 0,
         "JP": 0,
     };
+    document.getElementById("question").style.display = "block";
     document.getElementById("quizArea").style.display = "block";
     document.getElementById("result").style.display = "none";
     displayQuestion();

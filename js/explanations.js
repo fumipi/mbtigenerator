@@ -33,7 +33,7 @@ export const characterExplanations = {
     },
     "ISTJ": {
         "title": "管理者",
-        "description": "実用的で事実に基づいた思考の持ち主。その信頼性は紛れもなく本物。"
+        "description": "実用的で事実に基づいた思考の持ち主。その信頼性は紛れもなく本物な人"
     },
     "ISFJ": {
         "title": "擁護者",
@@ -49,7 +49,7 @@ export const characterExplanations = {
     },
     "ISTP": {
         "title": "巨匠",
-        "description": "大胆で実験的な思考を持つ実験者。あらゆる道具を使いこなす人。"
+        "description": "大胆で実験的な思考を持つ実験者。あらゆる道具を使いこなす人"
     },
     "ISFP": {
         "title": "冒険家",
@@ -57,7 +57,7 @@ export const characterExplanations = {
     },
     "ESTP": {
         "title": "起業家",
-        "description": "賢くてエネルギッシュで、非常に鋭い知覚の持ち主。危険と隣り合わせの人生を心から楽しむ。"
+        "description": "賢くてエネルギッシュで、非常に鋭い知覚の持ち主。危険と隣り合わせの人生を心から楽しむ人"
     },
     "ESFP": {
         "title": "エンターテナー",

@@ -1,6 +1,6 @@
 body {
     font-family: 'Arial', sans-serif;
-    background: #f4f4f4;
+    background: white;
     margin: 0;
     padding: 20px;
     display: flex;
@@ -10,48 +10,58 @@ body {
 
 h1 {
     color: #333;
+    margin: 0 auto;
 }
 
 #quizArea,
 #result {
     background: white;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding: 20px;
     width: 100%;
     max-width: 600px;
     margin-bottom: 20px;
 }
 
-#question {
-    margin-bottom: 20px;
+/* ボタンをchatGPTにカードに変えてもらった。 */
+#quizArea button {
+    display: inline-block; /* Make the button a block element to fill the width */
+    width: calc(50% - 22px); /* Adjust the width to be half of the container minus the margin */
+    height: 100px; /* Set a fixed height */
+    padding: 20px; /* Increase padding to allow room for text */
+    border: 1px solid #dddddd; /* Add a light border */
+    color: #333; /* Change text color to dark for visibility */
+    background-color: #ffffff; /* Set background of buttons to white */
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15); /* Add a subtle shadow */
+    transition: box-shadow 0.3s ease; /* Transition for shadow to give a 'lifting' effect */
+    text-align: center; /* Center the text inside the button */
+    font-size: 1rem; /* Set a font size */
+    line-height: 1.5; /* Set line height to make room for wrapped text */
+    white-space: normal; /* Override the default nowrap for buttons to allow wrapping */
+    vertical-align: middle; /* Align the text vertically */
+    overflow: hidden; /* Hide overflowed text */
 }
 
-#quizArea button,
+#quizArea button:hover,
+#retryButton:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* 'Lift' effect on hover */
+    transform: translateY(-2px); /* Optional: Slight move to top on hover */
+}
+
 #retryButton {
     padding: 10px 20px;
     margin: 10px;
-    border: none;
-    color: white;
+    border: 2px solid #dddddd; /* Add a light border */
+    color: #fff; /* Change text color to dark for visibility */
+    background-color: darkblue; /* Set background of buttons to white */
     border-radius: 4px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: box-shadow 0.3s ease; /* Transition for shadow to give a 'lifting' effect */
 }
 
-#quizArea button {
-    background-color: blue;
-}
-
-#quizArea button:hover {
-    background-color: darkblue;
-}
-
-#retryButton {
-    background-color: darkgray;
-}
-
-#retryButton:hover {
-    background-color: gray;
+#result {
+    display: none;
 }
 
 #result {

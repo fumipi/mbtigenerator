@@ -45,7 +45,7 @@ export const characterExplanations = {
     },
     "ESFJ": {
         "title": "領事",
-        "description": "賢くて好奇心旺盛な思考家。知的朝鮮には必ず受けて立つ人"
+        "description": "賢くて好奇心旺盛な思考家。知的挑戦には必ず受けて立つ人"
     },
     "ISTP": {
         "title": "巨匠",

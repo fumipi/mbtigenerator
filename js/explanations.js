@@ -13,7 +13,7 @@ export const characterExplanations = {
     },
     "ENTP": {
         "title": "討論者",
-        "description": "賢くて好奇心旺盛な思考家。知的朝鮮には必ず受けて立つ人"
+        "description": "賢くて好奇心旺盛な思考家。知的挑戦には必ず受けて立つ人"
     },
     "INFJ": {
         "title": "提唱者",
@@ -45,7 +45,7 @@ export const characterExplanations = {
     },
     "ESFJ": {
         "title": "領事",
-        "description": "賢くて好奇心旺盛な思考家。知的挑戦には必ず受けて立つ人"
+        "description": "非常に思いやりがあり社交的で、人気がある。常に熱心に人々に手を差し伸べている人"
     },
     "ISTP": {
         "title": "巨匠",
